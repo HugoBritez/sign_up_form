@@ -3,6 +3,9 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
+    font-family: sans-serif;
+    background: url(https://img.freepik.com/foto-gratis/parque-ciudad_1127-3364.jpg?t=st=1717540069~exp=1717543669~hmac=8a92dc8359add760c4f0ed619a14d6abe75d4c6bf2ed97b1cf01a78cbf4d6210&w=1060);
+    background-size: cover;
 }
 
 .login_image {
@@ -10,10 +13,10 @@ html, body {
     height: 100vh;
     margin: 0;
     padding: 0;
+    z-index: 2;
 }
 
 .form_section{
-    background-color: rgb(241, 241, 241);
     height: 100vh;
     width: 70vw;
     align-content: center;
@@ -29,7 +32,62 @@ html, body {
 
 
 .log_in{
-    width: 380px;
+    width: 400px;
     height: 450px;
-    border: 1px solid black;
+    border: none;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    background: transparent;
+    backdrop-filter: blur(8px);
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    color:  rgb(255, 255, 255);;
+}
+
+input{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 5px; 
+    padding: 2px 5px;
+    background-color: rgb(197, 235, 175);
+    
+}
+.email_input{
+    width: 370px;
+}
+
+.form_login{
+    margin-top: 50px;
+    text-align: center;
+}
+
+button{
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(79, 190, 64);
+    margin: 50px 150px;
+    transition: 0.3s ease;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    border: 1px solid green;
+    color:  rgb(79, 190, 64);;
+}
+
+.sign_up{
+    color: white;
+}
+
+a{
+    color: rgb(15, 80, 40);
 }
