@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.login_image {
+    display: block;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.form_section{
+    background-color: rgb(241, 241, 241);
+    height: 100vh;
+    width: 70vw;
+    align-content: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+
+.log_in{
+    width: 380px;
+    height: 450px;
+    border: 1px solid black;
+}
