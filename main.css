@@ -32,7 +32,7 @@ html, body {
 
 
 .log_in{
-    width: 400px;
+    width: 350px;
     height: 450px;
     border: none;
     padding: 5px;
@@ -52,6 +52,7 @@ h1{
 
 input{
     height: 40px;
+    width: 150px;
     border: none;
     border-radius: 5px;
     margin: 10px 5px; 
@@ -60,7 +61,7 @@ input{
     
 }
 .email_input{
-    width: 370px;
+    width: 325px;
 }
 
 .form_login{
@@ -70,12 +71,14 @@ input{
 
 button{
     height: 40px;
+    width: 120px;
     border-radius: 5px;
     border: none;
     background-color: rgb(79, 190, 64);
-    margin: 50px 150px;
+    margin: 50px 120px;
     transition: 0.3s ease;
     color: white;
+    font-weight: 500;
 }
 
 button:hover{
@@ -89,5 +92,5 @@ button:hover{
 }
 
 a{
-    color: rgb(15, 80, 40);
+    color: rgb(88, 179, 77);
 }
